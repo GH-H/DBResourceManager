@@ -1,0 +1,35 @@
+CREATE TABLE CLIENT(
+  Username  VARCHAR(15)  NOT NULL,
+  Password  VARCHAR(30)  NOT NULL,
+  Time  INT  NOT NULL,
+  PRIMARY KEY (Username),
+  UNIQUE (Username) );
+
+INSERT INTO CLIENT VALUES ('User', '1234', 1800000);
+INSERT INTO CLIENT VALUES ('Henry', '1234', 1800000);
+INSERT INTO CLIENT VALUES ('James', '1234', 1800000);
+
+--make password case sensitive 
+ALTER TABLE CLIENT 
+ALTER COLUMN Password VARCHAR(15) 
+COLLATE SQL_Latin1_General_CP1_CS_AS
+
+use UserDB
+
+CREATE TABLE HenryHistory(
+  Date DATETIME NOT NULL,
+  Time INT,
+  TableName VARCHAR(100),
+)
+
+CREATE TABLE JamesHistory(
+  Date DATETIME NOT NULL,
+  Time INT,
+  TableName VARCHAR(100),
+)
+
+CREATE TABLE UserHistory(
+  Date DATETIME NOT NULL,
+  Time INT,
+  TableName VARCHAR(100),
+)
