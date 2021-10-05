@@ -3,7 +3,8 @@
 ## Intro
  This project was influenced  by the idea of Open source, we intend to build an “resource management” layer on top of database systems, making private database public accessible . Our Database resource management system provides features that monitor and control resource usage, as well as  flexible query access and user friendly interface.
 
-
+##The origional repository was set to private due to UW repositories' policies , this repository was created under permission.
+![image](https://github.com/WebDataScience/DBResourceManager/blob/main/origional%20project%20Insights.png)
 ## Project proposal
 https://docs.google.com/document/d/1Y9skHW71MAg6SWP-WA-tH-jyQZO4CFRkYWuo9MqUwZg/edit?usp=sharing
 
