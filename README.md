@@ -1,9 +1,9 @@
 # DBResourceManager
-## The origional repository was set to private due to UW repositories' policies , this repository was created under permission.
+## The original repository was set to private due to UW repositories' policies, this repository was created under permission.
 ![image](https://github.com/GH-H/DBResourceManager/blob/main/origional%20project%20Insights.png)
 
 ## Intro
- This project was influenced  by the idea of Open source, we intend to build an “resource management” layer on top of database systems, making private database public accessible . Our Database resource management system provides features that monitor and control resource usage, as well as  flexible query access and user friendly interface.
+ This project was influenced by the idea of Open source, we intend to build a “resource management” layer on top of database systems, making private databases public accessible. Our Database resource management system provides features that monitor and control resource usage, as well as flexible query access and a user-friendly interface.
 
 
 ## Project proposal
